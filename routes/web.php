@@ -17,5 +17,8 @@ use App\Http\Controllers\PostController;
 Route::resource('posts', PostController::class);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('view0164');
+});
+Route::get('view0164', function () {
+	return view('view0164');
 });
